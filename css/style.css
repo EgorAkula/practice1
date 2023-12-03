@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    background-image: url(../img/winter.jpg);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.parent {
+    border: 5px;
+    background-color: darkcyan;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.parent2 {
+    background-color: darkcyan;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.child {
+    border: 1px dashed;
+    background-color: salmon;
+    width: 100px;
+    height: 100px;
+}
+
+.parent3 {
+    background-color: darkcyan;
+    height: 250px;
+    width: 80%;
+    background-position: bottom;
+}
